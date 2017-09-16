@@ -19,6 +19,12 @@
 		6DD371FE1F61172A00D3F4AD /* FQShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD371FD1F61172A00D3F4AD /* FQShareView.m */; };
 		6DD372011F61174000D3F4AD /* FQShareItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD372001F61174000D3F4AD /* FQShareItemCell.m */; };
 		6DD372041F61176F00D3F4AD /* FQShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD372031F61176F00D3F4AD /* FQShareItem.m */; };
+		6DE2609E1F6BA61D006FD506 /* ZYShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE260941F6BA61D006FD506 /* ZYShareItem.m */; };
+		6DE2609F1F6BA61D006FD506 /* ZYShareItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE260961F6BA61D006FD506 /* ZYShareItemCell.m */; };
+		6DE260A01F6BA61D006FD506 /* ZYShareSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE260981F6BA61D006FD506 /* ZYShareSheetCell.m */; };
+		6DE260A11F6BA61D006FD506 /* ZYShareSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE2609A1F6BA61D006FD506 /* ZYShareSheetView.m */; };
+		6DE260A21F6BA61D006FD506 /* ZYShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE2609C1F6BA61D006FD506 /* ZYShareView.m */; };
+		6DE260DF1F6BACE9006FD506 /* FQAnotherShareUIDemo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6DE260DE1F6BACE9006FD506 /* FQAnotherShareUIDemo.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +68,18 @@
 		6DD372001F61174000D3F4AD /* FQShareItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQShareItemCell.m; sourceTree = "<group>"; };
 		6DD372021F61176F00D3F4AD /* FQShareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQShareItem.h; sourceTree = "<group>"; };
 		6DD372031F61176F00D3F4AD /* FQShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQShareItem.m; sourceTree = "<group>"; };
+		6DE260931F6BA61D006FD506 /* ZYShareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareItem.h; sourceTree = "<group>"; };
+		6DE260941F6BA61D006FD506 /* ZYShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShareItem.m; sourceTree = "<group>"; };
+		6DE260951F6BA61D006FD506 /* ZYShareItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareItemCell.h; sourceTree = "<group>"; };
+		6DE260961F6BA61D006FD506 /* ZYShareItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShareItemCell.m; sourceTree = "<group>"; };
+		6DE260971F6BA61D006FD506 /* ZYShareSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareSheetCell.h; sourceTree = "<group>"; };
+		6DE260981F6BA61D006FD506 /* ZYShareSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShareSheetCell.m; sourceTree = "<group>"; };
+		6DE260991F6BA61D006FD506 /* ZYShareSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareSheetView.h; sourceTree = "<group>"; };
+		6DE2609A1F6BA61D006FD506 /* ZYShareSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShareSheetView.m; sourceTree = "<group>"; };
+		6DE2609B1F6BA61D006FD506 /* ZYShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareView.h; sourceTree = "<group>"; };
+		6DE2609C1F6BA61D006FD506 /* ZYShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShareView.m; sourceTree = "<group>"; };
+		6DE2609D1F6BA61D006FD506 /* ZYShareViewDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareViewDefine.h; sourceTree = "<group>"; };
+		6DE260DE1F6BACE9006FD506 /* FQAnotherShareUIDemo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FQAnotherShareUIDemo.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +110,7 @@
 		6DD3718C1F60FB8D00D3F4AD = {
 			isa = PBXGroup;
 			children = (
+				6DE260921F6BA61D006FD506 /* ZYShareView */,
 				6DD371CB1F60FBBC00D3F4AD /* FQShareUI */,
 				6DD371971F60FB8D00D3F4AD /* FQShareUIDemo */,
 				6DD371B11F60FB8E00D3F4AD /* FQShareUIDemoTests */,
@@ -164,6 +183,25 @@
 				6DD372031F61176F00D3F4AD /* FQShareItem.m */,
 			);
 			path = FQShareUI;
+			sourceTree = "<group>";
+		};
+		6DE260921F6BA61D006FD506 /* ZYShareView */ = {
+			isa = PBXGroup;
+			children = (
+				6DE260DE1F6BACE9006FD506 /* FQAnotherShareUIDemo.bundle */,
+				6DE260931F6BA61D006FD506 /* ZYShareItem.h */,
+				6DE260941F6BA61D006FD506 /* ZYShareItem.m */,
+				6DE260951F6BA61D006FD506 /* ZYShareItemCell.h */,
+				6DE260961F6BA61D006FD506 /* ZYShareItemCell.m */,
+				6DE260971F6BA61D006FD506 /* ZYShareSheetCell.h */,
+				6DE260981F6BA61D006FD506 /* ZYShareSheetCell.m */,
+				6DE260991F6BA61D006FD506 /* ZYShareSheetView.h */,
+				6DE2609A1F6BA61D006FD506 /* ZYShareSheetView.m */,
+				6DE2609B1F6BA61D006FD506 /* ZYShareView.h */,
+				6DE2609C1F6BA61D006FD506 /* ZYShareView.m */,
+				6DE2609D1F6BA61D006FD506 /* ZYShareViewDefine.h */,
+			);
+			path = ZYShareView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +313,7 @@
 			files = (
 				6DD371FB1F61167200D3F4AD /* FQShareUIImage.bundle in Resources */,
 				6DD371A81F60FB8E00D3F4AD /* LaunchScreen.storyboard in Resources */,
+				6DE260DF1F6BACE9006FD506 /* FQAnotherShareUIDemo.bundle in Resources */,
 				6DD371A51F60FB8E00D3F4AD /* Assets.xcassets in Resources */,
 				6DD371A31F60FB8E00D3F4AD /* Main.storyboard in Resources */,
 			);
@@ -302,11 +341,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DD371A01F60FB8E00D3F4AD /* ViewController.m in Sources */,
+				6DE2609F1F6BA61D006FD506 /* ZYShareItemCell.m in Sources */,
 				6DD371FE1F61172A00D3F4AD /* FQShareView.m in Sources */,
 				6DD3719D1F60FB8D00D3F4AD /* AppDelegate.m in Sources */,
 				6DD372041F61176F00D3F4AD /* FQShareItem.m in Sources */,
+				6DE260A01F6BA61D006FD506 /* ZYShareSheetCell.m in Sources */,
 				6DD3719A1F60FB8D00D3F4AD /* main.m in Sources */,
+				6DE260A11F6BA61D006FD506 /* ZYShareSheetView.m in Sources */,
+				6DE2609E1F6BA61D006FD506 /* ZYShareItem.m in Sources */,
 				6DD372011F61174000D3F4AD /* FQShareItemCell.m in Sources */,
+				6DE260A21F6BA61D006FD506 /* ZYShareView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +586,7 @@
 				6DD371C41F60FB8E00D3F4AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DD371C51F60FB8E00D3F4AD /* Build configuration list for PBXNativeTarget "FQShareUIDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +595,7 @@
 				6DD371C71F60FB8E00D3F4AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DD371C81F60FB8E00D3F4AD /* Build configuration list for PBXNativeTarget "FQShareUIDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +604,7 @@
 				6DD371CA1F60FB8E00D3F4AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

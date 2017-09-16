@@ -285,7 +285,7 @@
         flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     }
     flowLayout.itemSize = _itemSize;
-    
+     
     UICollectionView *shareCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, height) collectionViewLayout:flowLayout];
     self.shareCollectionView = shareCollectionView;
     shareCollectionView.delegate = self;
